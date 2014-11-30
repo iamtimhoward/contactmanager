@@ -20,6 +20,7 @@ RSpec.describe Person, :type => :model do
   end
 
   it 'has an array of phone numbers' do
-    expect(person.phone_numbers).to eq([1])
+    expect(person.phone_numbers).to eq([])
   end
+
 end

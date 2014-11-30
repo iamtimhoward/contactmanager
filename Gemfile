@@ -29,12 +29,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :development, :test do
-	gem 'rspec-rails'
-	gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'sqlite3'
 end
 
 group :producton do 
-	gem 'pg'
+  gem 'pg'
 end
 
 
